@@ -1,0 +1,33 @@
+<head>
+	<meta charset="utf-8">
+
+	<style>
+
+		@keyframes fly {
+			0%, 100% {
+				top: 0;
+				transform: rotate(0deg);
+			}
+			25% {
+				top: 200px;
+				transform: rotate(90deg);	
+			}
+			50% {
+				top: 200px;
+				transform: rotate(-90deg);	
+			}
+		}
+
+		h1 {
+			animation: fly 2s infinite;
+			position: relative;
+			display: inline-block;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 style="color: blue;">Test task works!</h1>
+	<br />
+	<h1 style="color: yellow;"># Слава Україні!</h1>
+</body>
