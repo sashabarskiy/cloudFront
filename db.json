@@ -9,8 +9,8 @@
     "name": "typicode"
   },
   "sites": {
-    "Cardsicle": "works",
+    "cardsicle": "works",
     "ARTAR": "works",
-    "DreamX": "works"
+    "dream-x": "works"
   }
 }
